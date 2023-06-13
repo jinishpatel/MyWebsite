@@ -11,7 +11,7 @@ const HeroImg = () => {
       </div>
       <div className="content">
         <p>
-          Hello ! I am a <h4>Mern</h4> Stake Developer
+          Hello ! I am a <b>Mern</b> Stake Developer
         </p>
         <h1>MongoDB Express React Node.js</h1>
         <div className="button-group">
