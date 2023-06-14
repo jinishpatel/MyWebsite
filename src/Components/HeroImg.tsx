@@ -1,5 +1,5 @@
 // import React from "react";
-import "./heroimgstyle.css";
+import "./HeroImgStyle.css";
 import IntoImg from "../assets/4102879_971.jpg";
 import { Link } from "react-router-dom";
 
