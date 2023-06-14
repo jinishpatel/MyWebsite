@@ -1,7 +1,7 @@
 // import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import { FaMobile, FaVoicemail } from "react-icons/fa";
-import { RiHome3Line } from "react-icons/ri"
+import { RiHome3Line } from "react-icons/ri";
 import { FiFacebook, FiGithub } from "react-icons/fi";
 import { SiInstagram } from "react-icons/si";
 import { SlSocialLinkedin } from "react-icons/sl";
