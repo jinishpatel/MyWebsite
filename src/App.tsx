@@ -3,7 +3,7 @@
 import "./App.css";
 import Home from "./routes/Home";
 import Contact from "./routes/Contact";
-import GitHub from "./routes/GitHub";
+
 import Project from "./routes/Project";
 import Resume from "./routes/Resume";
 import About from "./routes/About";
@@ -15,7 +15,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="/Contact" element={<Contact />} />
-      <Route path="/GitHub" element={<GitHub />} />
+      
       <Route path="/Project" element={<Project />} />
       <Route path="/Resume" element={<Resume />} />
     </Routes>
