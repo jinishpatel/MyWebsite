@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -35,6 +35,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/Project">Project</Link>
+        </li>
+        <li>
+          <a href="https://github.com/jinishpatel"> GitHub Profile</a>
         </li>
         <li>
           <Link to="/Resume">Get Resume</Link>
