@@ -22,9 +22,13 @@
 .location {
   display: flex;
   margin: 0.8rem 0;
+  justify-content: flex-start;
+  align-items: center;
 }
+
 .location p {
   line-height: 30px;
+  text-align: center;
 }
 .mobile {
   display: flex;
@@ -46,6 +50,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 .right h4 {
   line-height: 2rem;
@@ -65,7 +71,6 @@ a:hover {
   }
   .left {
     align-items: center;
-    
   }
   .right {
     text-align: center;

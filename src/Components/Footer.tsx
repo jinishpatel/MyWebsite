@@ -12,11 +12,22 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <RiHome3Line
-              size={20}
-              style={{ color: "#FFF", marginRight: "2rem" }}
-            />
+            <a href="https://goo.gl/maps/pmWpXbzZbffUn4Lw5">
+              <RiHome3Line
+                size={20}
+                style={{ color: "#FFF", marginRight: "2rem" }}
+              />
+            </a>
             <div>
+              <p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.393363406257!2d-79.71060012341788!3d43.59835065597607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b404ddf03843b%3A0x1e44a21bba0afc47!2s1451%20Pate%20Ct%2C%20Mississauga%2C%20ON%20L5V%202Y8!5e0!3m2!1sen!2sca!4v1687127547686!5m2!1sen!2sca"
+                  width="300"
+                  height="200"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </p>
               <a href="https://goo.gl/maps/pmWpXbzZbffUn4Lw5">
                 <p> 1451 Pate Crt</p>
                 <p>Mississauga, Canada</p>
@@ -54,16 +65,16 @@ const Footer = () => {
           </p>
           <p className="social">
             <a href="https://www.facebook.com/jinish5597/">
-              <FiFacebook size={20} style={{ marginRight: "2rem" }} />
+              <FiFacebook size={20} style={{ margin: "1rem" }} />
             </a>
             <a href="https://www.instagram.com/jinish_patel/">
-              <SiInstagram size={20} style={{ marginRight: "2rem" }} />
+              <SiInstagram size={20} style={{ margin: "1rem" }} />
             </a>
             <a href="https://github.com/jinishpatel">
-              <FiGithub size={20} style={{ marginRight: "2rem" }} />
+              <FiGithub size={20} style={{ margin: "1rem" }} />
             </a>
             <a href="https://www.linkedin.com/in/jinishpateljp/">
-              <SlSocialLinkedin size={20} style={{ marginRight: "2rem" }} />
+              <SlSocialLinkedin size={20} style={{ margin: "1     rem" }} />
             </a>
           </p>
         </div>
