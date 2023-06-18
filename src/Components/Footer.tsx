@@ -74,7 +74,7 @@ const Footer = () => {
               <FiGithub size={20} style={{ margin: "1rem" }} />
             </a>
             <a href="https://www.linkedin.com/in/jinishpateljp/">
-              <SlSocialLinkedin size={20} style={{ margin: "1     rem" }} />
+              <SlSocialLinkedin size={20} style={{ margin: "1rem" }} />
             </a>
           </p>
         </div>
