@@ -40,7 +40,9 @@ const Navbar = () => {
           <a href="https://github.com/jinishpatel"> GitHub Profile</a>
         </li>
         <li>
-          <Link to="/Resume">Get Resume</Link>
+          <a href="https://drive.google.com/file/d/1Vv3Y9l4IWOq4J1onbYXQMBpPI1oghbSS/view?usp=sharing" download>
+            Resume
+          </a>
         </li>
       </ul>
       <div className="hamburger-menu" onClick={handleClick}>
