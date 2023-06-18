@@ -44,7 +44,7 @@ const Navbar = () => {
             href="https://drive.google.com/file/d/1Vv3Y9l4IWOq4J1onbYXQMBpPI1oghbSS/view?usp=sharing"
             download
           >
-            Resume
+            Get Resume
           </a>
         </li>
       </ul>
