@@ -1,8 +1,7 @@
 import "./Heroimg2.css";
 import IntoImg from "../assets/wp3203371-hd-banner-backgrounds.jpg";
 
-
-export const Heroimg2 = ({ heading, text }) => {
+export const Heroimg2 = ({ heading = "some value", text = "some value" }) => {
   return (
     <div className="hero2">
       <div className="maskback">
@@ -12,7 +11,6 @@ export const Heroimg2 = ({ heading, text }) => {
         <h1>{heading}</h1>
         <p>{text}</p>
       </div>
-      
     </div>
   );
 };
