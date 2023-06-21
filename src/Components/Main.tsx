@@ -2,7 +2,7 @@ import "./Main.css";
 import htmlpng from "../assets/html.png";
 import csspng from "../assets/css.png";
 import javascriptpng from "../assets/javascript.png";
-import Reactpng from "../Assets/react.png";
+import Reactpng from "../assets/react.png";
 import TypeScriptPng from "../Assets/typescript.png";
 
 export const Main = () => {
