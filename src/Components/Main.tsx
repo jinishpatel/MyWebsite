@@ -1,4 +1,9 @@
 import "./Main.css";
+import htmlpng from "../assets/html.png";
+import csspng from "../assets/css.png";
+import javascriptpng from "../assets/javascript.png";
+import Reactpng from "../Assets/react.png";
+import TypeScriptPng from "../Assets/typescript.png";
 
 export const Main = () => {
   return (
@@ -11,7 +16,11 @@ export const Main = () => {
           <h1>FrontEnd Technologies</h1>
           <div className="technology-container">
             <div className="tech-name">
-              <h4>HTML</h4>
+              <span>
+                <p className="htmlpng"></p>
+                <h4>HTML</h4>
+              </span>
+
               <h4>CSS</h4>
               <h4>JavaScript</h4>
               <h4>React</h4>
@@ -19,6 +28,13 @@ export const Main = () => {
             </div>
             <div className="tech-value">
               <h4>asf</h4>
+            </div>
+            <div className="tech-png">
+              <img src={htmlpng} alt="htmlpng" />
+              <img src={csspng} alt="csspng" />
+              <img src={javascriptpng} alt="javascriptpng" />
+              <img src={Reactpng} alt="Reactpng" />
+              <img src={TypeScriptPng} alt="typescriptpng" />
             </div>
           </div>
         </div>
@@ -33,6 +49,13 @@ export const Main = () => {
             </div>
             <div className="tech-value">
               <h4>asf</h4>
+            </div>
+            <div className="tech-png">
+              <img src={htmlpng} alt="htmlpng" />
+              <img src={csspng} alt="csspng" />
+              <img src={javascriptpng} alt="javascriptpng" />
+              <img src={Reactpng} alt="Reactpng" />
+              <img src={TypeScriptPng} alt="typescriptpng" />
             </div>
           </div>
         </div>

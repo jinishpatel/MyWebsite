@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
+  text-align: center;
 }
 .left {
   width: 50%;
@@ -46,14 +47,31 @@
   justify-content: space-evenly;
 }
 .tech-name {
+  width: 33%;
   padding: 60px;
 }
+.tech-name span {
+  display: inline-flex;
+}
+
 .tech-name h4 {
   padding: 10px;
 }
+
 .tech-value {
+  width: 33%;
   padding: 60px;
 }
+.tech-png {
+  width: 33%;
+  padding: 60px;
+  flex-wrap: nowrap;
+}
+.tech-png img {
+  width: 30px;
+  height: 30px;
+}
+
 .right {
   width: 50%;
   height: 300px;
