@@ -9,7 +9,7 @@ const contact = () => {
       <Navbar />
       <Heroimg2
         heading="Trying to contact"
-        text="fill this form and contct me...."
+        text="fill this form to Contact...."
       />
       <Footer />
     </div>
