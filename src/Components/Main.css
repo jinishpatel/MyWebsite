@@ -36,43 +36,75 @@
   flex-wrap: nowrap;
   text-align: center;
 }
-.left {
+.Left {
   width: 50%;
-  height: 300px;
+  height: 500px;
   left: 0;
 }
+
 .technology-container {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .tech-name {
-  width: 33%;
+  width: 100%;
   padding: 60px;
 }
 .tech-name span {
   display: inline-flex;
 }
-
 .tech-name h4 {
   padding: 10px;
 }
 
-.tech-value {
-  width: 33%;
-  padding: 60px;
+span {
+  width: 100%;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: baseline;
 }
-.tech-png {
-  width: 33%;
-  padding: 60px;
-  flex-wrap: nowrap;
-}
-.tech-png img {
+span img {
   width: 30px;
   height: 30px;
+  justify-self: flex-end;
+}
+#file {
+  width: 30%;
+  background-color: red;
+  background-image: linear-gradient(red, yellow);
+  height: 10px;
+  align-self: center;
+  justify-self: stretch;
+}
+#file:hover {
+  margin: -5%;
+  zoom: 200%;
+}
+.Right {
+  width: 50%;
+  height: 500px;
+  border-left: 5px solid white;
 }
 
-.right {
-  width: 50%;
-  height: 300px;
+@media screen and (max-width: 1008px) {
+  .main {
+    width: 100%;
+    height: 1400px;
+  }
+  .skills-container {
+    width: 100%;
+    display: block;
+  }
+  .Left {
+    width: 100%;
+  }
+  .Right {
+    width: 100%;
+    border-left: 0px;
+  }
 }

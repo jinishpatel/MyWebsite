@@ -17,24 +17,32 @@ export const Main = () => {
           <div className="technology-container">
             <div className="tech-name">
               <span>
-                <p className="htmlpng"></p>
+                <img src={htmlpng} alt="csspng" />
                 <h4>HTML</h4>
+                <progress id="file" value="90" max="100"></progress>
               </span>
+              <span>
+                <img src={csspng} alt="csspng" />
 
-              <h4>CSS</h4>
-              <h4>JavaScript</h4>
-              <h4>React</h4>
-              <h4>TypeScript</h4>
-            </div>
-            <div className="tech-value">
-              <h4>asf</h4>
-            </div>
-            <div className="tech-png">
-              <img src={htmlpng} alt="htmlpng" />
-              <img src={csspng} alt="csspng" />
-              <img src={javascriptpng} alt="javascriptpng" />
-              <img src={Reactpng} alt="Reactpng" />
-              <img src={TypeScriptPng} alt="typescriptpng" />
+                <h4>CSS</h4>
+                <progress id="file" value="95" max="100"></progress>
+              </span>{" "}
+              <span>
+                <img src={javascriptpng} alt="javascriptpng" />
+
+                <h4>JavaScript</h4>
+                <progress id="file" value="85" max="100"></progress>
+              </span>{" "}
+              <span>
+                <img src={Reactpng} alt="Reactpng" />
+                <h4>React</h4>
+                <progress id="file" value="80" max="100"></progress>
+              </span>{" "}
+              <span>
+                <img src={TypeScriptPng} alt="typescriptpng" />
+                <h4>TypeScript</h4>
+                <progress id="file" value="80" max="100"></progress>
+              </span>
             </div>
           </div>
         </div>
@@ -42,20 +50,33 @@ export const Main = () => {
           <h1>BackEnd Technologies</h1>
           <div className="technology-container">
             <div className="tech-name">
-              <h4>Python</h4>
-              <h4>NodeJs</h4>
-              <h4>Java</h4>
-              <h4>C#</h4>
-            </div>
-            <div className="tech-value">
-              <h4>asf</h4>
-            </div>
-            <div className="tech-png">
-              <img src={htmlpng} alt="htmlpng" />
-              <img src={csspng} alt="csspng" />
-              <img src={javascriptpng} alt="javascriptpng" />
-              <img src={Reactpng} alt="Reactpng" />
-              <img src={TypeScriptPng} alt="typescriptpng" />
+              <span>
+                <img src={htmlpng} alt="csspng" />
+                <h4>Python</h4>
+                <progress id="file" value="90" max="100"></progress>
+              </span>
+              <span>
+                <img src={csspng} alt="csspng" />
+
+                <h4>Java</h4>
+                <progress id="file" value="90" max="100"></progress>
+              </span>{" "}
+              <span>
+                <img src={javascriptpng} alt="javascriptpng" />
+
+                <h4>NodeJs</h4>
+                <progress id="file" value="90" max="100"></progress>
+              </span>{" "}
+              <span>
+                <img src={Reactpng} alt="Reactpng" />
+                <h4>ExpressJs</h4>
+                <progress id="file" value="90" max="100"></progress>
+              </span>{" "}
+              <span>
+                <img src={TypeScriptPng} alt="typescriptpng" />
+                <h4>C#</h4>
+                <progress id="file" value="90" max="100"></progress>
+              </span>
             </div>
           </div>
         </div>
