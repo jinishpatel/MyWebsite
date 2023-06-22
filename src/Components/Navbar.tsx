@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 import { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg " : "header"}>
       <Link to="/">
-        <h1>PortFolio</h1>
+        <h1 className="title_name">JP</h1>
       </Link>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>

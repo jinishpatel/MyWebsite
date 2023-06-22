@@ -8,6 +8,18 @@
   height: 90px;
   z-index: 10;
 }
+.title_name {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 70px;
+}
+.title_name:hover{
+  background-color: white;
+  color: rgb(6, 234, 150);
+  padding: 10px;
+  border-radius: 70px;
+}
 .header-bg {
   background-color: black;
   transition: 0.5s;
