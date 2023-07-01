@@ -8,7 +8,6 @@ import Project from "./routes/Project";
 
 import About from "./routes/About";
 import { Route, Routes } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
