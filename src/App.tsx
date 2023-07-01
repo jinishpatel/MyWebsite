@@ -8,6 +8,7 @@ import Project from "./routes/Project";
 
 import About from "./routes/About";
 import { Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/Contact" element={<Contact />} />
 
       <Route path="/Project" element={<Project />} />
+      <Analytics />
     </Routes>
   );
 }
