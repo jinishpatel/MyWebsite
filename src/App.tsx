@@ -18,7 +18,6 @@ function App() {
       <Route path="/Contact" element={<Contact />} />
 
       <Route path="/Project" element={<Project />} />
-      <Analytics />
     </Routes>
   );
 }
