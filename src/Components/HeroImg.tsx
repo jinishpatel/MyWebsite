@@ -2,7 +2,8 @@
 import "./HeroImgStyle.css";
 import IntoImg from "../assets/back2.jpeg";
 import { Link } from "react-router-dom";
-
+import hire from "../assets/hire-me.json";
+import Lottie from "lottie-react";
 const HeroImg = () => {
   return (
     <div className="hero">
@@ -23,6 +24,7 @@ const HeroImg = () => {
           </Link>
         </div>
       </div>
+      <Lottie className="lottie-hire" animationData={hire} />
     </div>
   );
 };

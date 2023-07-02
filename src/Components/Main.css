@@ -73,7 +73,7 @@ span img {
   height: 30px;
   justify-self: flex-end;
 }
-#file {
+progress {
   width: 30%;
   background-color: red;
   background-image: linear-gradient(red, yellow);
@@ -84,6 +84,29 @@ span img {
 #file:hover {
   margin: -5%;
   zoom: 200%;
+  border: 1px solid white;
+}
+.chart {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 40px auto;
+  position: relative;
+  text-align: center;
+}
+.chart span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -30px;
+  width: 100%;
+}
+.chart span strong {
+  display: block;
+}
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .Right {
   width: 50%;
