@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1Vv3Y9l4IWOq4J1onbYXQMBpPI1oghbSS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1v-1YPV8tMKE8Mh3YjngIEyI4BnU1GZIg/view?usp=sharing"
             download
           >
             Get Resume
