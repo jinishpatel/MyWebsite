@@ -12,9 +12,10 @@
 }
 .lottie-hire {
   position: fixed;
-  width: 15%;
+  width: 200px;
   height: 30%;
-  bottom: 63px;
+  bottom: 5px;
+  right: 20px;
   z-index: 2;
 }
 .mask::after {
@@ -74,6 +75,7 @@
   .lottie-hire {
     width: 35%;
     height: 25%;
-    bottom: 5px;
+    bottom: 15px;
+    right: 5px;
   }
 }

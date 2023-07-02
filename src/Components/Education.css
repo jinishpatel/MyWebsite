@@ -1,0 +1,31 @@
+.main-back {
+  background-image: url("../assets/background.jpg");
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  object-position: 20%;
+  position: relative;
+  overflow: hidden;
+}
+.total-back {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 40px;
+  margin: 15px;
+}
+.back-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+}
+.left-back {
+  width: 50%;
+}
+.right-back {
+  padding-top: 30px;
+  width: 50%;
+  height: 800px;
+  border-left: 5px white solid;
+}
