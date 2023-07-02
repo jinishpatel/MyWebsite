@@ -50,13 +50,6 @@ export const Main = () => {
           <h1>BackEnd Technologies</h1>
           <div className="technology-container">
             <div className="tech-name">
-              <div>
-                <div className="chart" data-percent="90">
-                  <span>
-                    <strong>Java</strong>90%
-                  </span>
-                </div>
-              </div>
               <span>
                 <img src={htmlpng} alt="csspng" />
                 <h4>Python</h4>
